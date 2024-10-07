@@ -16,13 +16,13 @@ rankDoHeroi = (saldoVitorias) => {
     } else {
         return null;
     }
-} 
-
-calculasaldoVitorias = (vitorias, derrotas) => {
+  } 
+  
+  calculaSaldoVitorias = (vitorias, derrotas) => {
     return vitorias - derrotas;
-}
-
-let saldoVitorias = calculaVitoriasLiquidas(157, 58);
-let nivel = rankDoHeroi(vitoriasLiquidas);
-
-console.log(`O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`)
+  }
+  
+  let saldoVitorias = calculaSaldoVitorias(157, 58);
+  let nivel = rankDoHeroi(saldoVitorias);
+  
+  console.log(`O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`)
